@@ -1,0 +1,32 @@
+/* CustomAlert.css */
+
+.custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .alert-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .close-btn {
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    background-color: #ddd;
+  }
+  
